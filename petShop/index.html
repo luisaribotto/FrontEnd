@@ -1,66 +1,79 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
-        <div>
+        <div class="top_header">
             <p>Grandes ofertas en comederos</p>
             <p>Español</p>
             <p>ARG$</p>
         </div>
-         
-        <div>
-            <a href="#inicio"><img src="img/Cat.png" alt="dibujo perro logo"><h1>Front<span>Cat&Dog</span></h1><img src="img/Dog.svg" alt="dibujo perro logo"></a>      
+        <div class="bottom_header">
+            <a href="#inicio"><img src="img/Cat.png" alt="dibujo perro logo">
+                <h1><span>Front</span>Cat&Dog</h1><img src="img/Dog.svg" alt="dibujo perro logo">
+            </a>
         </div>
         <nav>
             <ul>
-                <li><a href="#">Categorías</a></li>
-                <li><a href="#">Pets</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Contactanos</a></li>
+                <li><img src="img/patita.png" alt="icono patita"><a href="#">Categorías</a></li>
+                <li><img src="img/patita.png" alt="icono patita"><a href="#">Pets</a></li>
+                <li><img src="img/patita.png" alt="icono patita"><a href="#">Nosotros</a></li>
+                <li><img src="img/patita.png" alt="icono patita"><a href="#">Contactanos</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id=banner>
-             <img src="img/foto.svg" alt="foto banner de la pagina">
-            <p>¡Es un placer tenerte aquí!</p>
+        <section class="banner_container">
+            <div class="banner">
+                <img src="img/foto.svg" alt="foto banner de la pagina">
+            </div>
+            <p class="placer">¡Es un placer tenerte aquí!</p>
             <p>¡Comederos en descuento!</p>
-            <p>Comederos</p> 
+            <p class="comederos">Comederos</p>
             <a href=""></a>
         </section>
-        <section id = productos>
-            <img src="pawprint 1.png" alt="dibujo de pata de perro">
+        <section class="productos">
+            <img src="img/pawprint 1.png" alt="dibujo de pata de perro">
             <h2>Productos Destacados</h2>
-            <ul>
-                <li>Comederos</li>
-                <li>Accesorios</li>
+            <ul class="lista_main">
+                <li>Comederos - </li>
+                <li>Accesorios - </li>
                 <li>Comida</li>
             </ul>
             <div>
-                <img src="img/churrasquito.svg" alt="foto jueguete churrasco">  
+                <img src="img/churrasquito.svg" alt="foto jueguete churrasco">
                 <p>Juguete Churrasquito</p>
-                <p>$150</p>
+                <p><span>$150</span></p>
             </div>
             <div>
-                <img src="img/comedero.png" alt="foto jueguete churrasco">  
+                <img src="img/comedero.png" alt="foto jueguete churrasco">
                 <p>Comedero para perro</p>
-                <p>$250</p>
-            </div> 
+                <p><span>$250</span></p>
+            </div>
             <div>
-                <img src="img/Huesito.png" alt="foto jueguete churrasco">  
+                <img src="img/Huesito.png" alt="foto jueguete churrasco">
                 <p>Juguete huesito</p>
-                <p>$650</p>
-            </div>  
+                <p><span>$650</span></p>
+            </div>
         </section>
-        <section id = formulario>
+        <section id=formulario>
 
         </section>
     </main>
     <footer>
-        <p align="center">Todos los derechos reservados</p>
+        <p>Todos los derechos reservados</p>
     </footer>
 </body>
+
 </html>

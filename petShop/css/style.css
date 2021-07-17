@@ -1,0 +1,73 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    text-decoration: none;
+    color: #3C2313;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style:none;
+} 
+header{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    padding: 0px;
+    margin: 0px;
+}
+header span{
+    color: black;
+}
+header ul{
+    font-size: 13px;
+}
+.top_header{
+    background-color: #222222;
+    font-size: 10px;
+}
+.bottom_header{
+    font-size:20px;
+}
+.banner_container{
+    font-size: 16px;
+    text-align: left;
+}
+.banner div{
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+p.placer {
+    font-size: 30px;
+    padding: 10px;
+    background-color: grey;
+    display: inline-block;
+    border-radius: 10px;
+}
+p.comederos {
+    font-size: 16px;
+    padding: 20px;
+    color: white;
+    background-color: #F0A83E;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.productos h2{
+    font-size: 40px
+}
+.lista_main li{
+    font-size: 15px;
+    color: #666;
+    text-align:center;
+    float:left;
+    
+}
+.productos{
+    font-size: 15px;
+    text-align: center;
+}
+.productos span{
+    color: #F0A83E;
+}
