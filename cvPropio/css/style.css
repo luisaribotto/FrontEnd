@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+}
+li{
+    list-style: none;
+}
+/*main*/
+.header{
+    text-align: center;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.foto-personal{
+    margin: 1rem;
+    border-radius: 90%;
+    width: 15rem;
+}
+.bloque-contenedor{
+    background:rgba(255,255,255, 0.3);
+    padding: 2rem;
+    border-color: white;
+    color: #a2aadb;
+    border-top: 1rem  solid #a2aadb;
+    font-size: 1.5rem;
+}
+/*main*/
+main{
+    background:rgba(156, 139, 139, 0.3);
+    text-align: center;
+    font-size: 1.6rem;
+}
+main h2{
+    background:rgb(162, 170, 219);
+    color: white;
+    padding: 1rem;
+}
+.contenedor{
+    position: -webkit-sticky;
+}
+.lista_datos{
+    padding: 1rem;
+    color: grey;
+}
+li span{
+    font-weight: bold;
+    
+}
+
+/*footer*/
+footer{
+    background-color: #a2aadb;
+    text-align: center;
+}
+.contacto{
+
+}
+.contacto i{
+    color: white;
+    width: 3rem;
+    padding: 3rem;
+    font-size: 3.5rem;   
+}
+.infoContacto{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+.telefono{
+    display: inline-block;
+}
+.mail{
+    display: inline-block;
+}
+.infoContacto h3, h4{
+    padding: 1rem;
+    font-weight: 300;
+}
