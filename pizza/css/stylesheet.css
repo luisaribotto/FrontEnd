@@ -1,0 +1,150 @@
+/* https://www.figma.com/file/fspxGBeJ6s06dsxx5Ji158/Flex%3F?node-id=1%3A2 */
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+/*header*/
+header{
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+header div{
+    display:flex;
+    align-items: center;
+    font-size: 2.4rem;
+}
+header span{
+    color: #39B24A; 
+}
+header img{
+    padding: 1rem;
+}
+.front{
+    color: red;
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+.menuHeader{
+    display: flex;
+    margin-right: 2rem;
+}
+.menuHeader li{
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+/*main*/
+main{
+    display: flex;
+    margin: 3rem 1.5rem;
+    background-color: #E5E5E5;
+    font-weight: bold;
+    width: 100%;
+}
+.podio{
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.tituloPodio{
+    font-size: 2.4rem;
+    color: #FC200C;
+}
+.listaPodio h3{
+    font-size: 2rem;
+}
+.listaPodio > ol{
+    font-size: 1.6rem;
+}
+.imagen{
+    position: relative;
+    /* display: inline-block; */
+    width: 100%;
+    
+}
+.tituloImagen{
+    color: #FC200C;
+}
+.imagen .tituloImagen{
+    /* width: 100%; */
+    /* display: flex; */
+    font-size: 2.4rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+.imagen > .tituloImagen span{
+    color: white;
+    margin: 0rem .5rem;
+}
+/*footer*/
+footer{
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+footer > div{
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+    font-size: 2rem;
+}
+footer span{
+    color: #39B24A; 
+}
+footer img{
+    padding: 1rem;
+}
+.front{
+    color: red;
+}
+footer ul li{
+    padding: 1rem;
+    font-size: 1.6rem;
+    margin-left: 10%;
+}
+
+
+
+@media screen and (max-width: 768px){
+    main{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 480px){
+    header nav{
+        display: block;
+    }
+    .podio .imagen{
+        width: 100%;
+    }
+    header nav ul{
+        display: none;
+    }
+    footer ul{
+        flex-direction: column;
+    }
+    footer div{
+        margin-top: 20px;
+    }
+}
+
